@@ -1,27 +1,53 @@
 body {
-    background-color: pink;
+    background: url(/jorgen-hendriksen-_21uVre7tb8-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: aliceblue;
+    padding: 0px 200px;
 }
 
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
 
 #hd {
-    color: black;
+    color: white;
 }
 
 .all {
     color: black;
     background-color: antiquewhite;
-    border: 1px solid black;
+    border: 1px solid whitesmoke;
     border-radius: 8px;
     padding: 8px;
 }
 
 table, th,td {
+    color: black;
     background-color: aliceblue;
     border: 1px solid black;
     border-collapse: collapse;
     padding: 8px;
 }
 
-#result {
-    background-color: blueviolet;
+#button {
+    font-weight: bold;
+    font-size: 20px;
+    background-color: aquamarine;
+    padding: 16px 24px;
+    border: 0px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#button:hover {
+    background-color: black;
+    color: white;
 }

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+
+    <form action="">
+        <h1>PAYMENT FORM</h1>
+        <h2>CONTACT INFORMATIONS</h2>
+        <p>* name: <input type="text" name="name" required ></p>
+        <p>
+
+        male <input type="radio" name="gender" id="gender"> female <input type="radio" name="gender" id="gender">
+        </p>
+        <p>* Address: <textarea name="address" id="address" cols="50" rows="5" required ></textarea></p>
+        <p>* Email: <input type="email" name="email" id="email" required ></p>
+        <p>* Pincode <input type="number" name="pincode" id="pincode" required ></p>
+        <hr>
+
+        <h2>PAYMENT INFORMATIONS</h2>
+        <p>* card type
+            <select required name="card-type" id="card-type">
+                <option value="">select a card type</option>
+                <option value="visa">visa</option>
+                <option value="rupay">Rupay</option>
+                <option value="master card">Master card</option>
+                <option value="upi">Upi</option>
+                </select>
+        </p>
+        <p>card number: <input type="number" name="card_number" id="card_number"></p>
+        <p>exp.date: <input type="date" name="exp_date" id="exp_date"></p>
+        <p>CVV: <input type="number" name="cvv" id="cvv"></p>
+        <input type="submit" value="Submit">
+
+
+
+    </form>
+</body>
+</html>

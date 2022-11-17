@@ -1,8 +1,35 @@
 body {
-    font-family: 'Manrope', sans-serif;
+    
     
 }
 .section1 {
     padding: 24px;
-    border: 1px solid black;
+    border: 1px solid rgb(73, 71, 71);
+    background-color: whitesmoke;
+}
+ section {
+    background-color:white;
+ }
+
+#center {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 10%;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+h1 {
+    color: rgb(14, 1, 1);
+}
+h3 {
+    color: blueviolet;
+}
+p {
+    color: blue;
+}
+a {
+    color: black;
 }

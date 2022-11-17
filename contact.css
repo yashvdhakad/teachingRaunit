@@ -1,0 +1,15 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+h3 {
+    color: brown;
+    font-weight: 700;
+}
+a {
+    color: black;
+}
+h1 {
+    color: blue;
+    font-weight: bold;
+}
